@@ -57,6 +57,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(PATH_FILES)/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
     $(PATH_FILES)/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+	$(PATH_FILES)/vendor/lib/libcalmodule_akm.so:system/vendor/lib/libcalmodule_akm.so \
     $(PATH_FILES)/etc/firmware/cherry_gis_fw.img:system/etc/firmware/cherry_gis_fw.img \
     $(PATH_FILES)/etc/firmware/cherry_ofilm_fw.img:system/etc/firmware/cherry_ofilm_fw.img \
     $(PATH_FILES)/etc/firmware/cherry_yassy_fw.img:system/etc/firmware/cherry_yassy_fw.img \
@@ -90,6 +91,7 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     $(PATH_FILES)/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     $(PATH_FILES)/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    $(PATH_FILES)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     $(PATH_FILES)/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 
 PRODUCT_COPY_FILES += \
