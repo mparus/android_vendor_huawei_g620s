@@ -91,7 +91,6 @@ PRODUCT_COPY_FILES += \
     $(PATH_FILES)/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     $(PATH_FILES)/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     $(PATH_FILES)/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    $(PATH_FILES)/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     $(PATH_FILES)/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt
 
 PRODUCT_COPY_FILES += \
